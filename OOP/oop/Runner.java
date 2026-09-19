@@ -7,11 +7,14 @@ public class Runner {
         Animal Dog = new Dog("Dan", 3);
         // Dog.makeSound();
         Animal Bird = new Bird("Rob", 4);
-        // Bird.makesound();
+        // Bird.makeSound();
+
         Animal[] animals = {Cat, Dog, Bird};
+
         for (int i = 0; i < animals.length; i++) {
             animals[i].makeSound();
         }
+        
         Cat.describe();
         Dog.describe();
     }

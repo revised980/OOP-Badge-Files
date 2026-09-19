@@ -13,6 +13,18 @@ public class Animal {
         this.age = animalAge;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer newAge) {
+        this.age = newAge;
+    }
+    
     public void makeSound() {
         System.out.println("animal sound");
     }
